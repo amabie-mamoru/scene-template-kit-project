@@ -1,3 +1,3 @@
-# [Unity] シーンをプレハブで表現するためのテンプレート
+# scene-template-kit-project
 
-これをベースに作っても良いし、これを参考にアプリ側で組み込んでもらってもよい
+scene-template-kit を作るためのプロジェクト
