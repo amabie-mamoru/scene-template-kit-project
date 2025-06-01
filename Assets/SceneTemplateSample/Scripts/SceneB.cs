@@ -7,9 +7,9 @@ public class SceneB : SceneBase
 {
     [SerializeField] private Button button;
 
-    protected new void Awake()
+    protected new void Start()
     {
-        base.Awake();
+        base.Start();
         button.onClick.AddListener(OnClick);
     }
 
