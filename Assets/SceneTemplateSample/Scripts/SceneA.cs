@@ -7,7 +7,7 @@ public class SceneA : SceneBase
 {
     [SerializeField] private Button button;
 
-    protected new void Start()
+    protected override void Start()
     {
         base.Start();
         button.onClick.AddListener(OnClick);
